@@ -1,0 +1,45 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Konwerter</title>
+
+    <style>
+        .container {
+            display: flex;
+            flex-direction: column;
+            background-color: ghostwhite;
+            font-family: "Bradley Hand ITC";
+            font-size: large;
+            padding-left: 50%;
+            padding-top: 5%;
+        }
+    </style>
+
+</head>
+
+<body>
+
+<div class="container">
+    <h2>PRZELICZNIK METRYCZNY</h2>
+    <form method="post" action="converterLenght">
+        <input name="meters" type="text" placeholder="metry"><br>
+        <input name="centimeters" type="text" placeholder="centymetry"><br>
+        <input name="millimeters" type="text" placeholder="milimetry"><br>
+        <br>
+        <input type="submit" value="przelicz" style="margin-left: 50px">
+    </form>
+    <br>
+    <h2>PRZELICZNIK WAG</h2>
+    <form method="post" action="converterWeight">
+        <input name="kilograms" type="text" placeholder="kilogramy"><br>
+        <input name="grams" type="text" placeholder="gramy"><br>
+        <input name="milligrams" type="text" placeholder="miligramy"><br>
+        <br>
+        <input type="submit" value="przelicz" style="margin-left: 50px">
+    </form>
+</div>
+
+</body>
+
+</html>
